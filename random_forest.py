@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-#csv_file='toy_model_example.csv'
-csv_file='Cu_6MR_PBE_3NN.csv'
+csv_file='toy_model_example.csv'
+#csv_file='Cu_6MR_PBE_3NN.csv'
 df = pd.read_csv(csv_file, header =0)
 X=df.drop(columns=['step','Relative energy / kJ mol^-1'])
 Y=df.iloc[:, -1] # target variable is on the right-most side
