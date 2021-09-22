@@ -14,8 +14,8 @@ Features can optional have their function variants considered as well (specified
 
 
 csvs_files={
-	"Cu_6MR_PBE_3NN.csv" : "Cu_6MR_PBE_3NN.csv"
-#	"toy_model_example.csv" : "toy_model_example.csv"
+#	"Cu_6MR_PBE_3NN.csv" : "Cu_6MR_PBE_3NN.csv"
+	"toy_model_example.csv" : "toy_model_example.csv"
 }
 functional_variance_library={ # functions to allow for functional variance. Functions should be linear though else OLS won't work well (non-linear functions require iterative non-exact methods)
 	"linear" : lambda x: x,
