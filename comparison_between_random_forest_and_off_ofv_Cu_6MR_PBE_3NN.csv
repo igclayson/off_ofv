@@ -1,0 +1,12 @@
+﻿Volume,Al_Al_seperation,Average_metal_Al_r,Sigma_metal_Al_r,Minimum_metal_Al_r,OAl_coord_num,OSi_coord_num,OtherO_coord_num,Total_coord_num,Bronsted_num,Boat,Relative energy / kJ mol^-1,Y_hat / kJ mol^-1,error,0.520898036,sq error,0.25497982,,Random forest predict E / kJ mol^-1,error,0.538413,sq error,0.255558
+2415.212,6.199326,3.11658,0.243856,2.872724,3,1,0,4,0,1,-1.77334,-1.78499,0.01166,,0.00014,,,-1.77066,0.00268,,0.00001,
+2410.697,6.194262,3.113886,0.243833,2.870053,3,1,0,4,0,1,-1.22968,-1.73449,0.50481,,0.25483,,,-1.73474,0.50505,,0.25508,
+2415.494,6.199206,3.116689,0.244247,2.872441,3,1,0,4,0,1,-1.78996,-1.78776,0.00219,,0.00000,,,-1.77464,0.01532,,0.00024,
+2415.494,6.199206,3.116689,0.244247,2.872441,3,1,0,4,0,1,-1.79000,-1.78776,0.00224,,0.00001,,,-1.77464,0.01536,,0.00024,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Coefficients,Square volume,-7.02E-06,,Multi-learner regression has compared to the random forest a ratio of,,,,,,,
+,,,,,,,,,,,,Cube Al_Al_seperation,-2.018895998,,For sum of errors:,0.96747,,,,,,
+,,,,,,,,,,,,Inverse sigma_metal_Al_r,-17.30707145,,For sum of squared errors:,0.99774,,,,,,
+,,,,,,,,,,,,Inverse square minimum_metal_Al_r,-5643.663829,,,,,,,,,
+,,,,,,,,,,,,OSi_coord_num,74.99945424,,,,,,,,,
+,,,,,,,,,,,,Total_coord_num,299.9978169,,,,,,,,,
