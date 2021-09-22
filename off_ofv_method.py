@@ -6,7 +6,7 @@ import math
 import itertools
 ###
 '''
-Optimial Feature Finder with Optional Functional Variance  (OFF-OFV)
+Optimal Feature Finder with Optional Functional Variance  (OFF-OFV)
 A multi-variable linear regression script that considers all possible linear regressions that can be fitted to a unrestricted N-sized feature and dataset. The regression for each combination of features will result in the fit such that the likelihood that the variance in the dependent data (Y) is described by the regressional fit is maximised, achieved via the Ordinary Least Squares (OLS) method.
 Features can optional have their function variants considered as well (specified in the functional_variance_allowed dictionary) such that a set of {f_i} functions of the feature x_j (i.e. f_1(x_j), f_2(x_j), ...) will be also considered.
 '''
