@@ -14,4 +14,4 @@ Y_hat = randomForest.predict(X_test)
 print("Actual test data values\t\tPredicted test data values\t\tAbsolute error\t\t\tSquared error") # extra tabs for nice spacing
 for j in range(len(Y_hat)):
 	Y_test_j=Y_test.iloc[j]; Y_hat_j=Y_hat[j]
-	print("{:.5f}\t\t\t\t{:.5f}\t\t\t{:.5f}\t\t\t\t{:.5f}".format(Y_test_j,Y_hat_j,abs(Y_hat_j - Y_test_j),(Y_hat_j - Y_test_j)**2))
+	print("{:.5f}\t\t\t\t{:.5f}\t\t\t{:.5f}\t\t\t{:.5f}".format(Y_test_j,Y_hat_j,abs(Y_hat_j - Y_test_j),(Y_hat_j - Y_test_j)**2))
